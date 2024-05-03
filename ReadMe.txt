@@ -12,9 +12,18 @@ locust -f tasks.py
 To launch nbad.py use the following command:
 python nbad.py
 
-
 !For MacOS if the python nbad.py command does not work, use the following:
 python3 nbad.py
+
+The host for the nbad.py website is:
+Http://127.0.0.1:5000
+
+The host for the locust framework is:
+Http://127.0.0.1:8089
+
+The test server (http-server command) is:
+Http://127.0.0.1:8080 (For Locust test purposes only)
+
 
 everything else can be found in the Appendices,
 Thank you
